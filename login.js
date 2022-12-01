@@ -1,2 +1,7 @@
-let login_mail="athmakuruharshitha@gmail.com";
-let login_pass="harshi@";
+let n=8;
+let count=0;
+for(i=1;i<=n;i++){
+     if(n%i==0){
+         count++
+      }
+}
