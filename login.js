@@ -10,3 +10,18 @@ for(i=1;i<=n;i++){
     console.log("not prime")
 }
 
+
+
+let str="madem";
+let bag=" "
+
+for(let i=str.length-1;i>=0;i--){
+     bag=bag+str[i];
+}if(str==bag){
+    console.log("palindrome")
+}else{
+    console.log("not a palindrome")
+}
+     
+
+
